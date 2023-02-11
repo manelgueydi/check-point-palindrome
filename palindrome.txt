@@ -1,0 +1,11 @@
+Algorithm palindrome
+var
+ch:string;
+BEGIN
+if(length(ch))<=1 then
+palindrome=true;
+elseif(ch[i]!=ch[length(ch)])then
+palindrome=false;
+else
+palindrome=palindrome(copy(ch,2,length(ch)-2));
+END
